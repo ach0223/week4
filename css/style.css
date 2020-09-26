@@ -1,0 +1,108 @@
+@-webkit-keyframes ach2 {
+	0% {
+		transform:rotate(0deg) scale(1,1) skewY(0deg);
+	}
+	50% {
+		transform:rotate(360deg) scale(1.5,1.5) skewY(180deg);
+	}
+	
+	100% {
+		transform:rotate(360deg) scale(1,1) skewY(0deg);
+	}
+	
+	
+}
+
+
+@-webkit-keyframes ach4 {
+	0% {
+		transform:rotate(0deg) scale(1,1) skewX(0deg);
+	}
+	50% {
+		transform:rotate(360deg) scale(1.5,1.5) skewX(180deg);
+	}
+	
+	100% {
+		transform:rotate(360deg) scale(1,1) skewX(0deg);
+	}
+	
+	
+}
+
+
+
+.box {
+	width: 100px;height: 100px;
+	background-color:white;
+	margin-left: 100px;
+	transition-property: all;
+	transition-duration: 2s}
+
+.box:hover {background-color:skyblue;
+			transform: rotate(360deg);}	
+
+.box2{width: 100px;height: 100px;
+	background-color: white;
+	margin-right: 100px;
+	transition-property: all;
+	transition-duration: 2s	
+	}
+
+.box2:hover {background-color: turquoise;
+			transform: rotate(360deg);
+			}	
+
+.box3{width: 100px;height: 100px;
+	background-color: white;
+	margin-left: 100px;
+	transition-property: all;
+	transition-duration: 2s}
+
+.box3:hover {background-color: lightcoral;
+			transform: rotate(360deg);}	
+
+.box4{width: 100px;height: 100px;
+	background-color: #000000;;
+	margin-right: 100px;		
+	transition-property: all;
+	transition-duration: 0.5s;
+	animation-name:ach2;
+	animation-duration:7s; 
+	animation-iteration-count:infinite;}
+
+.box4:hover {transform: rotate(360deg);
+			animation-name:ach4;
+			animation-duration:5s; 
+			animation-iteration-count:infinite;
+			}	
+
+
+.box5{width: 100px;height: 100px;
+	background-color:white;
+	margin-left: 100px;	
+	transition-property: all;
+	transition-duration: 2s}
+
+.box5:hover {background-color: blueviolet;
+			transform: rotate(360deg);}	
+
+.box6{width: 100px;height: 100px;
+	background-color:white;
+	margin-right: 100px;	
+	transition-property: all;
+	transition-duration: 2s}
+
+.box6:hover {background-color: mediumslateblue;
+			transform: rotate(360deg);
+			}	
+
+.box7{width: 100px;height: 100px;
+	background-color:white;
+	margin-left: 100px;	
+	transition-property: all;
+	transition-duration: 2s}
+
+.box7:hover {background-color: mediumaquamarine;
+			transform: rotate(360deg);}	
+
+
